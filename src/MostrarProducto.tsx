@@ -46,6 +46,17 @@ export default function MostrarProducto() {
             <h2 className="cant">Cantidad: </h2>
             <h2 className="unidades"> {5} unidades</h2>
           </div>
+          <div className="precio">${"70.000 Bs"}</div>
+          <div className=">>Materiales">
+            <div className="material">
+              Material:
+              <div className="info-material">{"hilo"}</div>
+            </div>
+          </div>
+          <div className=">>tamaño">
+            <div className="info">Tamaño: </div>
+            <div className=">>menu"></div>
+          </div>
         </div>
       </div>
     </>

@@ -1,9 +1,9 @@
 import { Carousel } from "flowbite-react";
-import naturo from "/img/Naturo.png";
-import snupy from "/img/Snupy.png";
-import snupyLlavero from "/img/Snupy llavero.png";
-import spidermanLlavero from "/img/Spiderman llavero.png";
-import spiderman from "/img/Spiderman.png";
+import naturo from "/img/productos/Naturo.png";
+import snupy from "/img/productos/Snupy.png";
+import snupyLlavero from "/img/productos/Snupy llavero.png";
+import spidermanLlavero from "/img/productos/Spiderman llavero.png";
+import spiderman from "/img/productos/Spiderman.png";
 
 export default function MostrarProducto() {
   return (

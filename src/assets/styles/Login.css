@@ -38,14 +38,14 @@ button:hover {
   background-color: #EB4F3E;
 }
 
-.forgot-password {
+.OlvidoContrasena {
   display: block;
   text-align: left;
   margin-top: 1rem;
   color: #1E1E1E;
 }
 
-.forgot-password:hover {
+.OlvidoContrasena:hover {
   text-decoration: underline;
 }
 

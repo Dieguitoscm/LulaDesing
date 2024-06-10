@@ -3,6 +3,7 @@ import logo from '../../public/img/iconos/logo-icon.png';  // Ruta correcta
 import userIcon from '../../public/img/iconos/usuario-icon.svg';  // Ruta correcta
 import cartIcon from '../../public/img/iconos/carrito-icon.png';  // Ruta correcta
 import '../assets/styles/Header.css';  // Ruta correcta
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -13,7 +14,7 @@ const Header = () => {
           <div className="user-profile">
             <img src={userIcon} alt="User" className="user-icon" />
             <div className="user-text">
-              <a href="#" className='login-text'>Hola, inicia sesión</a>
+            <Link to="/LoginRegistro" className="login-text">Hola, inicia sesión</Link>
               <p className="account-text">Tu cuenta</p>
             </div>
           </div>

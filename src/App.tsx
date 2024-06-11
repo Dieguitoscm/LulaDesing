@@ -12,6 +12,9 @@ import ComprarProductoRegistro from './components/ComprarProductoRegistro.tsx';
 import ComprarProductoUbicacion from './components/ComprarProductoUbicacion.tsx';
 import PagoExitoso from './components/PagoExitoso.tsx';
 import ComprarProductoUsuarioRegistrado from './components/ComprarProductoUsuarioRegistrado.tsx';
+import SideBar from './components/SideBar.tsx';
+import VerAdministradores from './components/VerAdministradores.tsx';
+import VerClientes from './components/VerClientes.tsx';
 
 const productos = [
   {
@@ -37,6 +40,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/LoginRegistro" element={<LoginRegistro />} />
+          <Route path="/SideBar" element={<SideBar />} />
           <Route path="/OlvidoContrasena" element={<OlvidoContrasena />} />
           <Route path="/ReestablecerContrasena" element={<ReestablecerContrasena />} />
           <Route path="/ContrasenaReestablecida" element={<ContrasenaReestablecida />} />
@@ -46,6 +50,8 @@ function App() {
           <Route path="/ComprarProductoUbicacion" element={<ComprarProductoUbicacion productos={productos} />} />
           <Route path="/PagoExitoso" element={<PagoExitoso />} />
           <Route path="/ComprarProductoUsuarioRegistrado" element={<ComprarProductoUsuarioRegistrado productos={productos} />} />
+          <Route path="/VerAdministradores" element={<VerAdministradores/>} />
+          <Route path="/VerClientes" element={<VerClientes/>} />
         </Routes>
       </div>
     </Router>

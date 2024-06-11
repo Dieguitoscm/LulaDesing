@@ -1,0 +1,53 @@
+/* General styles for the sidebar */
+.container-fluid {
+    padding: 0;
+    margin-left: 5px;
+  }
+  
+  .bg-dark {
+    background-color: white !important;
+  }
+  
+  .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 16px;
+    color: #000000; /* Texto negro por defecto */
+  }
+  
+  .nav-link:hover {
+    background-color: #F2F2F2; /* Fondo blanco para items padre al hacer hover */
+    color: #000000; /* Texto negro al hacer hover */
+  }
+  
+  .icon {
+    width: 24px; /* Ajusta el tamaño según sea necesario */
+    height: 24px; /* Ajusta el tamaño según sea necesario */
+    margin-right: 8px; /* Espacio entre la imagen y el texto */
+  }
+  
+  
+  .nav-item .collapse .nav-link:hover {
+    background-color: #f1b077; /* Fondo para sub-items al hacer hover */
+    color: #000000; /* Texto negro al hacer hover */
+    border-radius: 0; /* Sin bordes redondeados */
+  }
+  
+  .collapse.show .nav-link {
+    background-color: #F5BE90; /* Color para sub-items desplegados */
+    color: #000000; /* Texto negro para sub-items desplegados */
+    border-radius: 0; /* Sin bordes redondeados */
+  }
+  
+  .bi-arrow-up-short {
+    margin-left: auto; 
+    transition: transform 0.3s; 
+  }
+  
+  .nav-link.collapsed .bi-arrow-up-short {
+    transform: rotate(180deg); 
+  }
+  
+
+  

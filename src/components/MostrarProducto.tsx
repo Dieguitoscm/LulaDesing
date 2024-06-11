@@ -1,9 +1,9 @@
 import { Carousel } from "flowbite-react";
-import naturo from "/img/Naturo.png";
-import snupy from "/img/Snupy.png";
-import snupyLlavero from "/img/Snupy llavero.png";
-import spidermanLlavero from "/img/Spiderman llavero.png";
-import spiderman from "/img/Spiderman.png";
+import naturo from "/img/productos/Naturo.png";
+import snupy from "/img/productos/Snupy.png";
+import snupyLlavero from "/img/productos/Snupy llavero.png";
+import spidermanLlavero from "/img/productos/Spiderman llavero.png";
+import spiderman from "/img/productos/Spiderman.png";
 
 export default function MostrarProducto() {
   return (
@@ -45,6 +45,17 @@ export default function MostrarProducto() {
           <div className="stock flex justify-center bg-[#F5BE90] w-[40%]">
             <h2 className="cant">Cantidad: </h2>
             <h2 className="unidades"> {5} unidades</h2>
+          </div>
+          <div className="precio">${"70.000 Bs"}</div>
+          <div className=">>Materiales">
+            <div className="material">
+              Material:
+              <div className="info-material">{"hilo"}</div>
+            </div>
+          </div>
+          <div className=">>tamaño">
+            <div className="info">Tamaño: </div>
+            <div className=">>menu"></div>
           </div>
         </div>
       </div>

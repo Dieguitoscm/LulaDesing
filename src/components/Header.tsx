@@ -4,7 +4,7 @@ import userIcon from '../../public/img/iconos/usuario-icon.svg';  // Ruta correc
 import cartIcon from '../../public/img/iconos/carrito-icon.png';  // Ruta correcta
 import '../assets/styles/Header.css';  // Ruta correcta
 import { Link } from 'react-router-dom';
-
+ 
 const Header = () => {
   return (
     <header className="header">

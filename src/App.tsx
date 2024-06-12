@@ -15,6 +15,8 @@ import ComprarProductoUsuarioRegistrado from './components/ComprarProductoUsuari
 import SideBar from './components/SideBar.tsx';
 import VerAdministradores from './components/VerAdministradores.tsx';
 import VerClientes from './components/VerClientes.tsx';
+import { Footer } from './components/footer.tsx';
+import { Index } from './index.tsx';
 
 const productos = [
   {
@@ -52,7 +54,9 @@ function App() {
           <Route path="/ComprarProductoUsuarioRegistrado" element={<ComprarProductoUsuarioRegistrado productos={productos} />} />
           <Route path="/VerAdministradores" element={<VerAdministradores/>} />
           <Route path="/VerClientes" element={<VerClientes/>} />
+          <Route path="/Inicio" element={<Index/>} />
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );
